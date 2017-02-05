@@ -1,0 +1,23 @@
+Starting audit...
+[ERROR] /Users/cphetlo/Playground/percolation/PercolationStats.java:0: Missing package-info.java file. [JavadocPackage]
+[ERROR] /Users/cphetlo/Playground/percolation/PercolationStats.java:11:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] /Users/cphetlo/Playground/percolation/PercolationStats.java:14:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /Users/cphetlo/Playground/percolation/PercolationStats.java:14:29: Parameter n should be final. [FinalParameters]
+[ERROR] /Users/cphetlo/Playground/percolation/PercolationStats.java:14:36: Parameter trials should be final. [FinalParameters]
+[ERROR] /Users/cphetlo/Playground/percolation/PercolationStats.java:17: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] /Users/cphetlo/Playground/percolation/PercolationStats.java:28: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] /Users/cphetlo/Playground/percolation/PercolationStats.java:41:5: Class 'PercolationStats' looks like designed for extension (can be subclassed), but the method 'mean' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'PercolationStats' final or making the method 'mean' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] /Users/cphetlo/Playground/percolation/PercolationStats.java:41:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /Users/cphetlo/Playground/percolation/PercolationStats.java:46:5: Class 'PercolationStats' looks like designed for extension (can be subclassed), but the method 'stddev' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'PercolationStats' final or making the method 'stddev' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] /Users/cphetlo/Playground/percolation/PercolationStats.java:46:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /Users/cphetlo/Playground/percolation/PercolationStats.java:50:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /Users/cphetlo/Playground/percolation/PercolationStats.java:51:16: '1.96' is a magic number. [MagicNumber]
+[ERROR] /Users/cphetlo/Playground/percolation/PercolationStats.java:55:5: Class 'PercolationStats' looks like designed for extension (can be subclassed), but the method 'confidenceLo' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'PercolationStats' final or making the method 'confidenceLo' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] /Users/cphetlo/Playground/percolation/PercolationStats.java:55:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /Users/cphetlo/Playground/percolation/PercolationStats.java:60:5: Class 'PercolationStats' looks like designed for extension (can be subclassed), but the method 'confidenceHi' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'PercolationStats' final or making the method 'confidenceHi' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] /Users/cphetlo/Playground/percolation/PercolationStats.java:60:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /Users/cphetlo/Playground/percolation/PercolationStats.java:65:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /Users/cphetlo/Playground/percolation/PercolationStats.java:65:29: Parameter args should be final. [FinalParameters]
+[ERROR] /Users/cphetlo/Playground/percolation/PercolationStats.java:78: Line is longer than 80 characters (found 90). [LineLength]
+Audit done.
+Checkstyle ends with 20 errors.
